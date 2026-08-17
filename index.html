@@ -3,305 +3,256 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iSupport.ch - App Entwicklung von Stefan Schwinghammer</title>
-    <meta name="description" content="iSupport.ch - App-Entwicklung von Stefan Schwinghammer. Innovative und benutzerfreundliche Apps aus der Schweiz.">
+    <title>iSupport.ch – Apps von Stefan Schwinghammer</title>
+    <meta name="description" content="Vier Apps aus der Schweiz: CycleLine, Quiz Organizer, Badi App und DrawVision.">
+    <meta name="theme-color" content="#07090c">
+    <meta property="og:title" content="iSupport.ch – Apps von Stefan Schwinghammer">
+    <meta property="og:description" content="CycleLine, Quiz Organizer, Badi App und DrawVision – nützliche Apps aus der Schweiz.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://isupport.ch">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="images/Profilbilder/ProfilFoto_Blau.png">
     <link rel="apple-touch-icon" href="images/Profilbilder/ProfilFoto_Blau.png">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
+    <a class="skip-link" href="#apps">Zu den Apps</a>
+
+    <nav class="navbar" aria-label="Hauptnavigation">
         <div class="nav-container">
-            <div class="nav-logo">
-                <h2>iSupport.ch</h2>
-            </div>
+            <a href="#home" class="nav-logo">
+                <img src="images/Profilbilder/ProfilFoto_Blau.png" alt="" width="32" height="32">
+                <span>iSupport.ch</span>
+            </a>
             <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="#home" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#apps" class="nav-link">Unsere Apps</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#services" class="nav-link">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#about" class="nav-link">Über uns</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link">Kontakt</a>
-                </li>
+                <li><a href="#apps" class="nav-link">Apps</a></li>
+                <li><a href="#about" class="nav-link">Über mich</a></li>
+                <li><a href="#contact" class="nav-link nav-link-cta">Kontakt</a></li>
             </ul>
-            <div class="hamburger">
+            <button class="hamburger" type="button" aria-label="Menü öffnen" aria-expanded="false">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
-            </div>
+            </button>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
+    <header id="home" class="hero">
         <div class="hero-container">
-            <div class="hero-content">
-                <h1 class="hero-title">Innovative Apps für den Alltag</h1>
-                <p class="hero-subtitle">Ich entwickle bei iSupport.ch nützliche und benutzerfreundliche Apps für verschiedene Lebensbereiche. Von Quiz-Organisation über Freizeit-Guides bis hin zu innovativen AR‑Zeichen‑Tools – entdecken Sie meine Apps im App Store.</p>
-                <div class="hero-buttons">
-                    <a href="#apps" class="btn btn-primary">Unsere Apps entdecken</a>
-                    <a href="#contact" class="btn btn-secondary">Projekt besprechen</a>
+            <p class="eyebrow">Swiss Made · App Store</p>
+            <h1 class="hero-title">Vier Apps.<br>Ein Entwickler.</h1>
+            <p class="hero-subtitle">Ich baue nützliche Apps für den Alltag – für Radtouren, Quiz-Abende, Baditage und das Zeichnen in Augmented Reality.</p>
+            <div class="hero-buttons">
+                <a href="#apps" class="btn btn-primary">Alle Apps ansehen</a>
+                <a href="#contact" class="btn btn-secondary">Projekt besprechen</a>
+            </div>
+            <div class="hero-pills" aria-label="Schnellzugriff">
+                <a href="cycleline.html" class="hero-pill pill-cycle">
+                    <i class="fas fa-bicycle"></i> CycleLine
+                </a>
+                <a href="quiz-organizer.html" class="hero-pill pill-pub">
+                    <i class="fas fa-trophy"></i> Quiz Organizer
+                </a>
+                <a href="badi-app.html" class="hero-pill pill-badi">
+                    <i class="fas fa-swimming-pool"></i> Badi App
+                </a>
+                <a href="drawvision.html" class="hero-pill pill-draw">
+                    <i class="fas fa-pencil-alt"></i> DrawVision
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="apps" class="apps-section">
+            <div class="container">
+                <div class="section-header">
+                    <p class="eyebrow">Übersicht</p>
+                    <h2>Alle Apps</h2>
+                    <p>Für Mac, iPhone, iPad und Apple Vision Pro.</p>
                 </div>
-                
-                <div class="quick-app-links">
-                <p>Direkt zu meinen Apps:</p>
-                    <div class="quick-links">
-                        <a href="pubranker.html" class="quick-link">
-                            <i class="fas fa-trophy"></i>
-                            <span>PubRanker</span>
+
+                <div class="apps-bento">
+                    <a href="cycleline.html" class="app-showcase theme-cycle">
+                        <div class="app-showcase-media media-phone">
+                            <img src="images/CycleLine/01-navigation.jpg" alt="CycleLine: Abbiegung und Bike-Computer">
+                        </div>
+                        <div class="app-showcase-copy">
+                            <div class="app-kicker">
+                                <span class="app-badge">Navigation</span>
+                                <span class="app-price">Bald im Store</span>
+                            </div>
+                            <h3>CycleLine</h3>
+                            <p>Radnavigation mit Stimme: Route planen, GPX laden, Anstiege sehen – ohne Account.</p>
+                            <div class="app-meta">
+                                <span>iPhone</span>
+                                <span>GPX</span>
+                                <span>Offline</span>
+                            </div>
+                            <span class="app-link">Mehr erfahren <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </a>
+
+                    <a href="quiz-organizer.html" class="app-showcase theme-pub">
+                        <div class="app-showcase-media media-desktop">
+                            <img src="images/PubRanker/1286x804bb.webp" alt="Quiz Organizer: Neues Quiz erstellen auf dem Mac">
+                        </div>
+                        <div class="app-showcase-copy">
+                            <div class="app-kicker">
+                                <span class="app-badge">Quiz</span>
+                                <span class="app-price">CHF 1.00</span>
+                            </div>
+                            <h3>Quiz Organizer</h3>
+                            <p>Quiz-Abende steuern: Teams, Live-Punkte und ein Leaderboard für den zweiten Bildschirm.</p>
+                            <div class="app-meta">
+                                <span>macOS</span>
+                                <span>iOS</span>
+                                <span>iCloud</span>
+                            </div>
+                            <span class="app-link">Mehr erfahren <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </a>
+
+                    <a href="badi-app.html" class="app-showcase theme-badi">
+                        <div class="app-showcase-media media-phone">
+                            <img src="images/Badi App/460x998bb-2.webp" alt="Badi App: Liste Schweizer Schwimmbäder">
+                        </div>
+                        <div class="app-showcase-copy">
+                            <div class="app-kicker">
+                                <span class="app-badge">Freizeit</span>
+                                <span class="app-price">Kostenlos</span>
+                            </div>
+                            <h3>Badi App</h3>
+                            <p>Wassertemperaturen, Öffnungszeiten und die nächste Badi in der Nähe.</p>
+                            <div class="app-meta">
+                                <span>iPhone</span>
+                                <span>iPad</span>
+                                <span>Schweiz</span>
+                            </div>
+                            <span class="app-link">Mehr erfahren <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </a>
+
+                    <a href="drawvision.html" class="app-showcase theme-draw">
+                        <div class="app-showcase-media media-spatial">
+                            <img src="images/Draw Vision/800x400bb-2.png" alt="DrawVision: AR-Projektion in einer Galerie">
+                        </div>
+                        <div class="app-showcase-copy">
+                            <div class="app-kicker">
+                                <span class="app-badge">AR</span>
+                                <span class="app-price">CHF 2.00</span>
+                            </div>
+                            <h3>DrawVision</h3>
+                            <p>Bilder in den Raum legen und nachzeichnen – auf Apple Vision Pro.</p>
+                            <div class="app-meta">
+                                <span>visionOS</span>
+                                <span>Spatial</span>
+                            </div>
+                            <span class="app-link">Mehr erfahren <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="eyebrow">Über mich</p>
+                        <h2>Stefan Schwinghammer</h2>
+                        <p>Ich bin unabhängiger App-Entwickler in der Schweiz. Hinter iSupport.ch stehen Apps, die ein konkretes Problem lösen – ohne Schnickschnack, mit Fokus auf klare Bedienung.</p>
+                        <p>Von der Idee über Design und Entwicklung bis zum Launch im App Store setze ich Projekte persönlich um.</p>
+                        <div class="stats">
+                            <div class="stat">
+                                <strong>4</strong>
+                                <span>Apps im Store</span>
+                            </div>
+                            <div class="stat">
+                                <strong>15+</strong>
+                                <span>Sprachen</span>
+                            </div>
+                            <div class="stat">
+                                <strong>100%</strong>
+                                <span>Swiss Made</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/Profilbilder/ProfilFoto_Blau.png" alt="Illustration von Stefan Schwinghammer" class="profile-portrait">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <p class="eyebrow">Kontakt</p>
+                    <h2>Schreiben Sie mir</h2>
+                    <p>Eine Idee für eine App – oder eine Frage zu CycleLine, Quiz Organizer, Badi App oder DrawVision?</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <a class="contact-item" href="mailto:info@isupport.ch">
+                            <i class="fas fa-envelope"></i>
+                            <div class="contact-item-content">
+                                <h4>E-Mail</h4>
+                                <p>info@isupport.ch</p>
+                            </div>
                         </a>
-                        <a href="badi-app.html" class="quick-link">
-                            <i class="fas fa-swimming-pool"></i>
-                            <span>Badi App</span>
-                        </a>
-                        <a href="drawvision.html" class="quick-link">
-                            <i class="fas fa-pencil-alt"></i>
-                            <span>DrawVision</span>
-                        </a>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="contact-item-content">
+                                <h4>Standort</h4>
+                                <p>Schweiz</p>
+                            </div>
+                        </div>
                     </div>
+                    <form class="contact-form" action="https://formspree.io/f/xjkqvypw" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Ihr Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-Mail</label>
+                            <input type="email" id="email" name="email" placeholder="Ihre E-Mail" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Betreff</label>
+                            <input type="text" id="subject" name="_subject" placeholder="Worum geht es?" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Nachricht</label>
+                            <textarea id="message" name="message" placeholder="Ihre Nachricht" rows="5" required></textarea>
+                        </div>
+                        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+                        <input type="hidden" name="_next" value="https://isupport.ch/thank-you.html">
+                        <div class="form-buttons">
+                            <button type="submit" class="btn btn-primary">Nachricht senden</button>
+                            <a href="mailto:info@isupport.ch" class="btn btn-secondary">E-Mail öffnen</a>
+                        </div>
+                    </form>
                 </div>
             </div>
-            <div class="hero-image">
-                <div class="app-screenshots">
-                    <div class="screenshot-container active">
-                        <img src="images/PubRanker/1286x804bb.webp" alt="PubRanker App Screenshot" class="app-screenshot">
-                        <div class="screenshot-label">PubRanker</div>
-                    </div>
-                    <div class="screenshot-container">
-                        <img src="images/Badi App/460x998bb.webp" alt="Badi App Screenshot" class="app-screenshot">
-                        <div class="screenshot-label">Badi App</div>
-                    </div>
-                    <div class="screenshot-container">
-                        <img src="images/Draw Vision/800x400bb.png" alt="DrawVision Screenshot" class="app-screenshot">
-                        <div class="screenshot-label">DrawVision</div>
-                    </div>
-                </div>
-                <div class="screenshot-dots">
-                    <span class="dot active" data-index="0"></span>
-                    <span class="dot" data-index="1"></span>
-                    <span class="dot" data-index="2"></span>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- Apps Section -->
-    <section id="apps" class="apps-section">
-        <div class="container">
-            <div class="section-header">
-                <h2>Unsere Apps</h2>
-                <p>Entdecken Sie meine veröffentlichten Apps im App Store – von Quiz-Organisation bis hin zu Schweizer Freizeit-Guides</p>
-                <p class="click-hint"><i class="fas fa-mouse-pointer"></i> Klicken Sie auf eine App‑Karte für mehr Details</p>
-            </div>
-            <div class="apps-grid">
-                <div class="app-card">
-                    <div class="app-card-image">
-                        <img src="images/PubRanker/1286x804bb.webp" alt="PubRanker App">
-                    </div>
-                    <div class="app-card-content">
-                        <h3>PubRanker</h3>
-                        <p>Die ultimative App für Quiz-Master! Professionelle Pub-Quiz Organisation mit Teams verwalten, Live-Scoring, automatische Ranglisten und beeindruckendem Präsentationsmodus für zweiten Bildschirm.</p>
-                        <div class="app-features">
-                            <span class="feature-tag">macOS</span>
-                            <span class="feature-tag">iOS</span>
-                            <span class="feature-tag">Quiz</span>
-                            <span class="feature-tag">Präsentation</span>
-                        </div>
-                        <div class="app-price">CHF 1.00</div>
-                        <a href="pubranker.html" class="app-link">Mehr erfahren <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="app-card">
-                    <div class="app-card-image">
-                        <img src="images/Badi App/460x998bb.webp" alt="Badi App">
-                    </div>
-                    <div class="app-card-content">
-                        <h3>Badi App</h3>
-                        <p>Dein Schweizer Schwimmbad-Guide! Entdecke die perfekte Badi mit aktuellen Wassertemperaturen, Echtzeit-Öffnungszeiten, standortbasierter Suche und personalisierten Benachrichtigungen.</p>
-                        <div class="app-features">
-                            <span class="feature-tag">iOS</span>
-                            <span class="feature-tag">iPad</span>
-                            <span class="feature-tag">Schweiz</span>
-                            <span class="feature-tag">Freizeit</span>
-                        </div>
-                        <div class="app-price">Kostenlos</div>
-                        <a href="badi-app.html" class="app-link">Mehr erfahren <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="app-card">
-                    <div class="app-card-image">
-                        <img src="images/Draw Vision/800x400bb.png" alt="DrawVision App">
-                    </div>
-                    <div class="app-card-content">
-                        <h3>DrawVision</h3>
-                        <p>Innovative Augmented Reality Zeichen-App! DrawVision nutzt AR-Technologie, um Bilder auf jede Oberfläche zu projizieren und das Nachzeichnen zu erleichtern - perfekt für Künstler und Designer.</p>
-                        <div class="app-features">
-                            <span class="feature-tag">visionOS</span>
-                            <span class="feature-tag">AR</span>
-                            <span class="feature-tag">Zeichnen</span>
-                        </div>
-                        <div class="app-price">CHF 2.00</div>
-                        <a href="drawvision.html" class="app-link">Mehr erfahren <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="services-section">
-        <div class="container">
-            <div class="section-header">
-                <h2>Services</h2>
-                <p>Von der Idee bis zur Veröffentlichung – ich begleite Ihr Projekt persönlich</p>
-            </div>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-lightbulb"></i>
-                    </div>
-                    <h3>Konzeption & Design</h3>
-                    <p>Ich entwickle innovative Konzepte und erstelle benutzerfreundliche Designs für Ihre App‑Idee.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h3>App-Entwicklung</h3>
-                    <p>Native und Cross‑Platform Entwicklung für iOS und Android mit modernen Technologien.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-rocket"></i>
-                    </div>
-                    <h3>Launch & Marketing</h3>
-                    <p>Erfolgreiche Veröffentlichung in den App Stores und Unterstützung bei der Positionierung.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-cog"></i>
-                    </div>
-                    <h3>Wartung & Support</h3>
-                    <p>Kontinuierliche Updates, Bugfixes und technischer Support – zuverlässig und persönlich.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about-section">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2>Über iSupport.ch</h2>
-                    <p>Ich bin Stefan Schwinghammer, Schweizer App‑Entwickler hinter iSupport.ch. Mit Fokus auf Benutzerfreundlichkeit und praktischen Nutzen entwickle ich Apps, die das Leben einfacher und unterhaltsamer machen – von Quiz‑Organisation bis hin zu lokalen Freizeit‑Guides.</p>
-                    <div class="stats">
-                        <div class="stat">
-                            <h3>3</h3>
-                            <p>Veröffentlichte Apps</p>
-                        </div>
-                        <div class="stat">
-                            <h3>15+</h3>
-                            <p>Sprachen unterstützt</p>
-                        </div>
-                        <div class="stat">
-                            <h3>100%</h3>
-                            <p>Swiss Made</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-image">
-                    <div class="profile-image-wrapper">
-                        <img src="images/Profilbilder/Profilbild.JPG" alt="Profilbild Stefan Schwinghammer" class="profile-image">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <div class="section-header">
-                <h2>Kontakt</h2>
-                <p>Bereit für Ihr nächstes App‑Projekt? Lassen Sie uns sprechen!</p>
-            </div>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Kontaktieren Sie mich</h3>
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div class="contact-item-content">
-                            <h4>E-Mail</h4>
-                            <p>info@isupport.ch</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <div class="contact-item-content">
-                            <h4>Telefon</h4>
-                            <p>+41 XX XXX XX XX</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div class="contact-item-content">
-                            <h4>Standort</h4>
-                            <p>Schweiz</p>
-                        </div>
-                    </div>
-                </div>
-                <form class="contact-form" action="https://formspree.io/f/xjkqvypw" method="POST">
-                    <div class="form-group">
-                        <input type="text" id="name" name="name" placeholder="Ihr Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" id="email" name="email" placeholder="Ihre E-Mail" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" id="subject" name="_subject" placeholder="Betreff" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea id="message" name="message" placeholder="Ihre Nachricht" rows="5" required></textarea>
-                    </div>
-                    <!-- Honeypot field for spam protection -->
-                    <input type="text" name="_gotcha" style="display:none">
-                    <!-- Redirect after submission -->
-                    <input type="hidden" name="_next" value="https://isupport.ch/thank-you.html">
-                    <div class="form-buttons">
-                        <button type="submit" class="btn btn-primary">Nachricht senden</button>
-                        <a href="mailto:info@isupport.ch?subject=Kontaktanfrage&body=Hallo,%0D%0A%0D%0AIch interessiere mich für Ihre Dienstleistungen.%0D%0A%0D%0AMit freundlichen Grüßen" class="btn btn-secondary">E-Mail direkt öffnen</a>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>iSupport.ch</h3>
-                    <p>App‑Entwicklung aus der Schweiz – persönlich umgesetzt.</p>
+                    <p>Apps aus der Schweiz – persönlich entwickelt.</p>
                 </div>
                 <div class="footer-section">
                     <h4>Apps</h4>
                     <ul>
-                        <li><a href="pubranker.html">PubRanker</a></li>
+                        <li><a href="cycleline.html">CycleLine</a></li>
+                        <li><a href="quiz-organizer.html">Quiz Organizer</a></li>
                         <li><a href="badi-app.html">Badi App</a></li>
                         <li><a href="drawvision.html">DrawVision</a></li>
                     </ul>
@@ -316,7 +267,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 iSupport.ch. Alle Rechte vorbehalten.</p>
+                <p>&copy; 2026 iSupport.ch. Alle Rechte vorbehalten.</p>
             </div>
         </div>
     </footer>

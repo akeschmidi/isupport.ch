@@ -8,44 +8,34 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="images/Profilbilder/ProfilFoto_Blau.png">
     <link rel="apple-touch-icon" href="images/Profilbilder/ProfilFoto_Blau.png">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
+    <nav class="navbar" aria-label="Hauptnavigation">
         <div class="nav-container">
-            <div class="nav-logo">
-                <h2>iSupport.ch</h2>
-            </div>
+            <a href="index.html" class="nav-logo">
+                <img src="images/Profilbilder/ProfilFoto_Blau.png" alt="" width="32" height="32">
+                <span>iSupport.ch</span>
+            </a>
             <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="index.html#apps" class="nav-link">Unsere Apps</a>
-                </li>
-                <li class="nav-item">
-                    <a href="index.html#services" class="nav-link">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a href="index.html#about" class="nav-link">Über uns</a>
-                </li>
-                <li class="nav-item">
-                    <a href="index.html#contact" class="nav-link">Kontakt</a>
-                </li>
+                <li><a href="index.html#apps" class="nav-link">Apps</a></li>
+                <li><a href="index.html#about" class="nav-link">Über mich</a></li>
+                <li><a href="index.html#contact" class="nav-link nav-link-cta">Kontakt</a></li>
             </ul>
-            <div class="hamburger">
+            <button class="hamburger" type="button" aria-label="Menü öffnen" aria-expanded="false">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
-            </div>
+            </button>
         </div>
     </nav>
 
-    <!-- App Hero Section -->
     <section class="app-hero">
         <div class="container">
+            <a href="index.html#apps" class="back-link"><i class="fas fa-arrow-left"></i> Alle Apps</a>
             <div class="app-hero-content">
                 <div class="app-hero-text">
                     <div class="app-icon-large">
@@ -228,12 +218,13 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>iSupport.ch</h3>
-                    <p>Ihr Partner für innovative App-Entwicklung in der Schweiz.</p>
+                    <p>Apps aus der Schweiz – persönlich entwickelt.</p>
                 </div>
                 <div class="footer-section">
                     <h4>Apps</h4>
                     <ul>
-                        <li><a href="pubranker.html">PubRanker</a></li>
+                        <li><a href="cycleline.html">CycleLine</a></li>
+                        <li><a href="quiz-organizer.html">Quiz Organizer</a></li>
                         <li><a href="badi-app.html">Badi App</a></li>
                         <li><a href="drawvision.html">DrawVision</a></li>
                     </ul>
@@ -248,7 +239,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 iSupport.ch. Alle Rechte vorbehalten.</p>
+                <p>&copy; 2026 iSupport.ch. Alle Rechte vorbehalten.</p>
             </div>
         </div>
     </footer>
