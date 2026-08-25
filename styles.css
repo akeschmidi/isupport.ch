@@ -523,18 +523,6 @@ a {
     background: radial-gradient(circle at 80% 20%, rgba(52, 211, 153, 0.2), transparent 36%);
 }
 
-.coming-soon {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.55rem;
-    padding: 0.85rem 1.1rem;
-    border-radius: 12px;
-    border: 1px solid var(--line-strong);
-    background: rgba(255, 255, 255, 0.04);
-    font-weight: 650;
-    color: var(--text);
-}
-
 /* About */
 .about-section {
     padding: 40px 0 96px;
