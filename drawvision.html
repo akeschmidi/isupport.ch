@@ -3,237 +3,186 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DrawVision - AR Zeichen-App | iSupport.ch</title>
-    <meta name="description" content="DrawVision - Innovative Augmented Reality Zeichen-App. Projizieren Sie Bilder auf jede Oberfläche und zeichnen Sie sie nach.">
+    <title>DrawVision – Zeichnen mit Apple Vision Pro | iSupport.ch</title>
+    <meta name="description" content="DrawVision für Apple Vision Pro: Vorlagen oder eigene Bilder im Raum platzieren, auf Wand, Tisch oder Boden fixieren und auf Papier nachzeichnen.">
+    <meta name="theme-color" content="#f5f5f7">
+    <meta property="og:title" content="DrawVision – Zeichnen mit Apple Vision Pro">
+    <meta property="og:description" content="Bilder in den Raum legen, fixieren und nachzeichnen – mit 39 Vorlagen oder eigenen Bildern.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://isupport.ch/drawvision">
+    <meta property="og:image" content="https://isupport.ch/images/apps/drawvision/icon.jpg">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="images/Profilbilder/ProfilFoto_Blau.png">
     <link rel="apple-touch-icon" href="images/Profilbilder/ProfilFoto_Blau.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-    <nav class="navbar" aria-label="Hauptnavigation">
-        <div class="nav-container">
+    <a class="skip-link" href="#main">Zum Inhalt</a>
+
+    <header class="site-header">
+        <nav class="nav container" aria-label="Hauptnavigation">
             <a href="index.html" class="nav-logo">
                 <img src="images/Profilbilder/ProfilFoto_Blau.png" alt="" width="32" height="32">
                 <span>iSupport.ch</span>
             </a>
             <ul class="nav-menu">
-                <li><a href="index.html#apps" class="nav-link">Apps</a></li>
-                <li><a href="index.html#about" class="nav-link">Über mich</a></li>
-                <li><a href="index.html#contact" class="nav-link nav-link-cta">Kontakt</a></li>
+                <li><a href="index.html#apps">Apps</a></li>
+                <li><a href="index.html#about">Über mich</a></li>
+                <li><a href="index.html#contact" class="nav-cta">Kontakt</a></li>
             </ul>
-            <button class="hamburger" type="button" aria-label="Menü öffnen" aria-expanded="false">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </button>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <section class="app-hero">
-        <div class="container">
-            <a href="index.html#apps" class="back-link"><i class="fas fa-arrow-left"></i> Alle Apps</a>
-            <div class="app-hero-content">
-                <div class="app-hero-text">
-                    <div class="app-icon-large">
-                        <i class="fas fa-pencil-alt"></i>
-                    </div>
-                    <h1 class="app-hero-title">DrawVision</h1>
-                    <p class="app-hero-subtitle">visionOS App</p>
-                    <p class="app-description">Innovative Augmented Reality Zeichen-App! DrawVision nutzt AR-Technologie, um Bilder auf jede Oberfläche zu projizieren und das Nachzeichnen zu erleichtern - perfekt für Künstler und Designer.</p>
-                    
-                    <div class="app-features-list">
-                        <div class="feature-item">
-                            <i class="fas fa-vr-cardboard"></i>
-                            <span>visionOS exklusiv</span>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-image"></i>
-                            <span>Bild-Projektion</span>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-paint-brush"></i>
-                            <span>Zeichen-Hilfe</span>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-palette"></i>
-                            <span>Für Künstler & Designer</span>
-                        </div>
-                    </div>
-
-                    <div class="app-store-button">
-                        <a href="https://apps.apple.com/ch/app/drawvision/id6748315594" target="_blank" class="store-btn">
-                            <div class="store-btn-content">
-                                <i class="fab fa-apple"></i>
-                                <div class="store-btn-text">
-                                    <span class="store-btn-small">Laden im</span>
-                                    <span class="store-btn-large">App Store</span>
-                                </div>
+    <main id="main" class="theme-drawvision">
+        <section class="app-hero">
+            <div class="container">
+                <div class="app-hero-panel">
+                    <div>
+                        <a href="index.html#apps" class="back-link">← Alle Apps</a>
+                        <div class="app-title">
+                            <img class="app-icon is-round" src="images/apps/drawvision/icon.jpg" alt="" width="104" height="104">
+                            <div>
+                                <h1>DrawVision</h1>
+                                <p class="tagline">Zeichnen mit Apple Vision Pro</p>
                             </div>
-                            <div class="store-btn-price">CHF 2.00</div>
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="app-hero-image">
-                    <img src="images/Draw Vision/800x400bb.png" alt="DrawVision App Screenshot" class="hero-screenshot desktop-screenshot">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Screenshots Gallery -->
-    <section class="screenshots-section">
-        <div class="container">
-            <div class="section-header">
-                <h2>Screenshots</h2>
-                <p>Entdecken Sie die innovativen AR-Funktionen von DrawVision</p>
-            </div>
-            
-            <div class="screenshots-grid desktop-grid">
-                <div class="screenshot-item">
-                    <img src="images/Draw Vision/800x400bb.png" alt="DrawVision Hauptansicht" loading="lazy">
-                    <div class="screenshot-overlay">
-                        <h4>Hauptansicht</h4>
-                        <p>Intuitive Benutzeroberfläche</p>
-                    </div>
-                </div>
-                <div class="screenshot-item">
-                    <img src="images/Draw Vision/800x400bb-2.png" alt="AR Projektion" loading="lazy">
-                    <div class="screenshot-overlay">
-                        <h4>AR Projektion</h4>
-                        <p>Bilder auf Oberflächen projizieren</p>
-                    </div>
-                </div>
-                <div class="screenshot-item">
-                    <img src="images/Draw Vision/800x400bb-3.png" alt="Zeichen-Modus" loading="lazy">
-                    <div class="screenshot-overlay">
-                        <h4>Zeichen-Modus</h4>
-                        <p>Präzises Nachzeichnen</p>
-                    </div>
-                </div>
-                <div class="screenshot-item">
-                    <img src="images/Draw Vision/800x400bb-4.png" alt="Einstellungen" loading="lazy">
-                    <div class="screenshot-overlay">
-                        <h4>Einstellungen</h4>
-                        <p>Anpassbare Parameter</p>
-                    </div>
-                </div>
-                <div class="screenshot-item">
-                    <img src="images/Draw Vision/800x400bb-5.png" alt="Galerie" loading="lazy">
-                    <div class="screenshot-overlay">
-                        <h4>Galerie</h4>
-                        <p>Ihre Kunstwerke verwalten</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Features Section -->
-    <section class="app-features-section">
-        <div class="container">
-            <div class="section-header">
-                <h2>Funktionen</h2>
-                <p>Revolutionäre AR-Technologie für kreative Köpfe</p>
-            </div>
-            
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-cube"></i>
-                    </div>
-                    <h3>Augmented Reality</h3>
-                    <p>Nutzen Sie modernste AR-Technologie, um Bilder präzise auf jede Oberfläche zu projizieren und nachzuzeichnen.</p>
-                </div>
-                
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-image"></i>
-                    </div>
-                    <h3>Bild-Import</h3>
-                    <p>Importieren Sie beliebige Bilder aus Ihrer Galerie oder nehmen Sie neue Fotos als Vorlage für Ihre Zeichnungen auf.</p>
-                </div>
-                
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-sliders-h"></i>
-                    </div>
-                    <h3>Anpassbare Einstellungen</h3>
-                    <p>Passen Sie Transparenz, Größe und Position der projizierten Bilder individuell an Ihre Bedürfnisse an.</p>
-                </div>
-                
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <h3>Lern-Tool</h3>
-                    <p>Perfekt für Kunstunterricht, Workshops oder zum Erlernen neuer Zeichentechniken - für Anfänger und Profis.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Download Section -->
-    <section class="download-section">
-        <div class="container">
-            <div class="download-content">
-                <h2>Bereit für die Zukunft des Zeichnens?</h2>
-                <p>Laden Sie DrawVision jetzt herunter und erleben Sie, wie AR-Technologie Ihre Kreativität auf ein neues Level bringt!</p>
-                
-                <div class="app-store-button-large">
-                    <a href="https://apps.apple.com/ch/app/drawvision/id6748315594" target="_blank" class="store-btn-large-link">
-                        <div class="store-btn-large-content">
-                            <i class="fab fa-apple"></i>
-                            <div class="store-btn-large-text">
-                                <span class="store-btn-large-small">Laden im</span>
-                                <span class="store-btn-large-title">App Store</span>
-                            </div>
-                            <div class="store-btn-large-price">CHF 2.00</div>
                         </div>
-                    </a>
+                        <p class="lead">DrawVision legt Bilder direkt in deine Umgebung, damit du sie präzise auf Papier oder Leinwand nachzeichnen kannst. Wähle eine Vorlage oder ein eigenes Bild, passe Grösse und Position an – und leg los.</p>
+                        <div class="actions">
+                            <a href="https://apps.apple.com/ch/app/drawvision/id6748315594" class="store-badge"><img src="images/badges/app-store-de-white.svg" alt="DrawVision im App Store laden" width="120" height="40"></a>
+                            <span class="price">CHF 2.00 · für Apple Vision Pro</span>
+                        </div>
+                    </div>
+                    <div class="media-stack">
+                        <img class="device device-wide" src="images/apps/drawvision/03-fixiert.jpg" alt="DrawVision: Bergmotiv an der Wand fixiert, daneben Grösse und Transparenz" width="1600" height="900">
+                        <img class="device device-wide" src="images/apps/drawvision/01-launch.jpg" alt="DrawVision: Hauptmenü mit Vorlagen nach Kategorien" width="1600" height="900">
+                    </div>
                 </div>
-                
-                <div class="compatibility-info">
-                    <p><i class="fas fa-vr-cardboard"></i> Exklusiv für visionOS</p>
-                    <p><i class="fas fa-camera"></i> Benötigt Kamera für AR-Funktionen</p>
+            </div>
+        </section>
+
+        <section class="facts-section">
+            <div class="container">
+                <dl class="facts">
+                    <div><dt>Preis</dt><dd>CHF 2.00</dd></div>
+                    <div><dt>Gerät</dt><dd>Apple Vision Pro</dd></div>
+                    <div><dt>Voraussetzung</dt><dd>visionOS 2.5 oder neuer</dd></div>
+                    <div><dt>Sprachen</dt><dd>12, u. a. Deutsch, Englisch, Französisch, Italienisch</dd></div>
+                    <div><dt>Kategorie</dt><dd>Grafik und Design, Produktivität</dd></div>
+                    <div><dt>Vorlagen</dt><dd>39 in 6 Kategorien</dd></div>
+                </dl>
+            </div>
+        </section>
+
+        <section class="section" aria-labelledby="screenshots-title">
+            <div class="container">
+                <header class="section-head">
+                    <p class="eyebrow">Screenshots</p>
+                    <h2 id="screenshots-title">Dein Bild, mitten im Raum</h2>
+                    <p>Vorlage wählen, platzieren, fixieren – und nachzeichnen.</p>
+                </header>
+            </div>
+            <ul class="gallery gallery-wide">
+                <li>
+                    <figure>
+                        <a href="images/apps/drawvision/01-launch.jpg"><img class="device device-wide" src="images/apps/drawvision/01-launch.jpg" alt="Hauptmenü mit Vorlagen nach Kategorien und Import-Knopf" width="1600" height="900" loading="lazy"></a>
+                        <figcaption><strong>Vorlagen</strong> Blumen, Natur, Kunst, Fantasy, Geburtstag und Weihnachten</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="images/apps/drawvision/02-platzieren.jpg"><img class="device device-wide" src="images/apps/drawvision/02-platzieren.jpg" alt="Platzieren: Blumenvorlage im Raum mit Optionen Fixieren, Auf Flächen einrasten und Vor mir platzieren" width="1600" height="900" loading="lazy"></a>
+                        <figcaption><strong>Platzieren</strong> Verschieben, drehen und skalieren – oder auf Flächen einrasten</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="images/apps/drawvision/03-fixiert.jpg"><img class="device device-wide" src="images/apps/drawvision/03-fixiert.jpg" alt="Fixiert: Bergmotiv an der Wand mit Einstellungen für Grösse und Transparenz" width="1600" height="900" loading="lazy"></a>
+                        <figcaption><strong>Fixieren</strong> Bild an der Wand festmachen, Grösse und Transparenz einstellen</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="images/apps/drawvision/04-import.jpg"><img class="device device-wide" src="images/apps/drawvision/04-import.jpg" alt="Importieren: Dateiauswahl mit iCloud Drive und Apple Vision Pro" width="1600" height="900" loading="lazy"></a>
+                        <figcaption><strong>Eigene Bilder</strong> Aus iCloud Drive oder von der Apple Vision Pro importieren</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section" aria-labelledby="features-title">
+            <div class="container">
+                <header class="section-head">
+                    <p class="eyebrow">Funktionen</p>
+                    <h2 id="features-title">Zeichnen lernen und verfeinern</h2>
+                    <p>Perfekt für Einsteiger, die lernen wollen, und für alle, die ihre Technik verfeinern möchten.</p>
+                </header>
+                <div class="features features-3">
+                    <article class="feature">
+                        <h3>Bilder im Raum</h3>
+                        <p>Vorlagen oder eigene Bilder erscheinen in deiner Umgebung – zum Nachzeichnen auf Papier oder Leinwand.</p>
+                    </article>
+                    <article class="feature">
+                        <h3>Auf Flächen einrasten</h3>
+                        <p>Bilder rasten auf Wand, Tisch oder Boden ein.</p>
+                    </article>
+                    <article class="feature">
+                        <h3>Bleibt an seinem Platz</h3>
+                        <p>Fixierte Bilder bleiben an ihrer Position – auch nach einem Neustart der App.</p>
+                    </article>
+                    <article class="feature">
+                        <h3>Direkt bedienen</h3>
+                        <p>Mit den Händen verschieben, drehen und skalieren. Grösse, Transparenz, Rotation und Position im kompakten Steuer-Panel.</p>
+                    </article>
+                    <article class="feature">
+                        <h3>39 Vorlagen</h3>
+                        <p>In sechs Kategorien: Blumen, Natur, Kunst, Fantasy, Geburtstag und Weihnachten.</p>
+                    </article>
+                    <article class="feature">
+                        <h3>Eigene Bilder</h3>
+                        <p>Eigene Motive über die Dateiauswahl importieren.</p>
+                    </article>
                 </div>
+            </div>
+        </section>
+
+        <section class="section" aria-labelledby="download-title">
+            <div class="container">
+                <div class="cta">
+                    <img class="app-icon is-round" src="images/apps/drawvision/icon.jpg" alt="" width="96" height="96" loading="lazy">
+                    <h2 id="download-title">Bereit zum Zeichnen?</h2>
+                    <p>DrawVision gibt es für CHF 2.00 im App Store – für Apple Vision Pro. Fragen oder Feedback? <a href="mailto:info@isupport.ch">info@isupport.ch</a></p>
+                    <div class="actions">
+                        <a href="https://apps.apple.com/ch/app/drawvision/id6748315594" class="store-badge"><img src="images/badges/app-store-de-white.svg" alt="DrawVision im App Store laden" width="120" height="40"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <strong>iSupport.ch</strong>
+                <p>Apps aus der Schweiz – persönlich entwickelt.</p>
+            </div>
+            <nav aria-label="Apps">
+                <h2>Apps</h2>
+                <ul>
+                    <li><a href="cycleline.html">CycleLine</a></li>
+                    <li><a href="quiz-organizer.html">Quiz Organizer</a></li>
+                    <li><a href="badi-app.html">Badi App</a></li>
+                    <li><a href="drawvision.html">DrawVision</a></li>
+                </ul>
+            </nav>
+            <div>
+                <h2>Kontakt</h2>
+                <ul>
+                    <li><a href="mailto:info@isupport.ch">info@isupport.ch</a></li>
+                    <li><a href="datenschutz.html">Impressum &amp; Datenschutz</a></li>
+                </ul>
             </div>
         </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>iSupport.ch</h3>
-                    <p>Apps aus der Schweiz – persönlich entwickelt.</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Apps</h4>
-                    <ul>
-                        <li><a href="cycleline.html">CycleLine</a></li>
-                        <li><a href="quiz-organizer.html">Quiz Organizer</a></li>
-                        <li><a href="badi-app.html">Badi App</a></li>
-                        <li><a href="drawvision.html">DrawVision</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Rechtliches</h4>
-                    <ul>
-                        <li><a href="#impressum">Impressum</a></li>
-                        <li><a href="#datenschutz">Datenschutz</a></li>
-                        <li><a href="#agb">AGB</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 iSupport.ch. Alle Rechte vorbehalten.</p>
-            </div>
+            <p class="footer-bottom">&copy; 2026 iSupport.ch · Apple, iPhone, iPad, Mac und Apple Vision Pro sind Marken von Apple Inc.</p>
         </div>
     </footer>
 

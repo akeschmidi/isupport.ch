@@ -3,244 +3,207 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Badi App - Schweizer Schwimmbad-Guide | iSupport.ch</title>
-    <meta name="description" content="Badi App - Dein Schweizer Schwimmbad-Guide mit aktuellen Wassertemperaturen, Öffnungszeiten und standortbasierter Suche.">
+    <title>Badi App – Schweizer Schwimmbad-Guide | iSupport.ch</title>
+    <meta name="description" content="Badi App: Wassertemperaturen, Öffnungszeiten, Wetter und die nächste Badi in der Nähe – dazu die Temperaturen der Schweizer Seen. Kostenlos für iPhone und iPad.">
+    <meta name="theme-color" content="#f5f5f7">
+    <meta property="og:title" content="Badi App – Dein Schweizer Schwimmbad-Guide">
+    <meta property="og:description" content="Wassertemperaturen, Öffnungszeiten und die nächste Badi in deiner Nähe.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://isupport.ch/badi-app">
+    <meta property="og:image" content="https://isupport.ch/images/apps/badi-app/icon.jpg">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="images/Profilbilder/ProfilFoto_Blau.png">
     <link rel="apple-touch-icon" href="images/Profilbilder/ProfilFoto_Blau.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-    <nav class="navbar" aria-label="Hauptnavigation">
-        <div class="nav-container">
+    <a class="skip-link" href="#main">Zum Inhalt</a>
+
+    <header class="site-header">
+        <nav class="nav container" aria-label="Hauptnavigation">
             <a href="index.html" class="nav-logo">
                 <img src="images/Profilbilder/ProfilFoto_Blau.png" alt="" width="32" height="32">
                 <span>iSupport.ch</span>
             </a>
             <ul class="nav-menu">
-                <li><a href="index.html#apps" class="nav-link">Apps</a></li>
-                <li><a href="index.html#about" class="nav-link">Über mich</a></li>
-                <li><a href="index.html#contact" class="nav-link nav-link-cta">Kontakt</a></li>
+                <li><a href="index.html#apps">Apps</a></li>
+                <li><a href="index.html#about">Über mich</a></li>
+                <li><a href="index.html#contact" class="nav-cta">Kontakt</a></li>
             </ul>
-            <button class="hamburger" type="button" aria-label="Menü öffnen" aria-expanded="false">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </button>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <section class="app-hero">
-        <div class="container">
-            <a href="index.html#apps" class="back-link"><i class="fas fa-arrow-left"></i> Alle Apps</a>
-            <div class="app-hero-content">
-                <div class="app-hero-text">
-                    <div class="app-icon-large">
-                        <i class="fas fa-swimming-pool"></i>
-                    </div>
-                    <h1 class="app-hero-title">Badi App</h1>
-                    <p class="app-hero-subtitle">Schweizer Schwimmbad-Guide</p>
-                    <p class="app-description">Dein Schweizer Schwimmbad-Guide! Entdecke die perfekte Badi mit aktuellen Wassertemperaturen, Echtzeit-Öffnungszeiten, standortbasierter Suche und personalisierten Benachrichtigungen.</p>
-                    
-                    <div class="app-features-list">
-                        <div class="feature-item">
-                            <i class="fas fa-thermometer-half"></i>
-                            <span>Aktuelle Wassertemperaturen</span>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-clock"></i>
-                            <span>Echtzeit-Öffnungszeiten</span>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>Standortbasierte Suche</span>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-bell"></i>
-                            <span>Personalisierte Benachrichtigungen</span>
-                        </div>
-                    </div>
-
-                    <div class="app-store-button">
-                        <a href="https://apps.apple.com/ch/app/badi-app/id6504495943?platform=mac" target="_blank" class="store-btn">
-                            <div class="store-btn-content">
-                                <i class="fab fa-apple"></i>
-                                <div class="store-btn-text">
-                                    <span class="store-btn-small">Laden im</span>
-                                    <span class="store-btn-large">App Store</span>
-                                </div>
+    <main id="main" class="theme-badi">
+        <section class="app-hero">
+            <div class="container">
+                <div class="app-hero-panel">
+                    <div>
+                        <a href="index.html#apps" class="back-link">← Alle Apps</a>
+                        <div class="app-title">
+                            <img class="app-icon" src="images/apps/badi-app/icon.jpg" alt="" width="104" height="104">
+                            <div>
+                                <h1>Badi App</h1>
+                                <p class="tagline">Dein Schweizer Schwimmbad-Guide</p>
                             </div>
-                            <div class="store-btn-price">Kostenlos</div>
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="app-hero-image">
-                    <img src="images/Badi App/460x998bb.webp" alt="Badi App Screenshot" class="hero-screenshot mobile-screenshot">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Screenshots Gallery -->
-    <section class="screenshots-section">
-        <div class="container">
-            <div class="section-header">
-                <h2>Screenshots</h2>
-                <p>Entdecken Sie die Funktionen der Badi App im Detail</p>
-            </div>
-            
-            <div class="screenshots-grid mobile-grid">
-                <div class="screenshot-item">
-                    <img src="images/Badi App/460x998bb.webp" alt="Badi App Hauptansicht" loading="lazy">
-                    <div class="screenshot-overlay">
-                        <h4>Hauptansicht</h4>
-                        <p>Übersicht aller Badis</p>
-                    </div>
-                </div>
-                <div class="screenshot-item">
-                    <img src="images/Badi App/460x998bb-2.webp" alt="Badi Details" loading="lazy">
-                    <div class="screenshot-overlay">
-                        <h4>Badi Details</h4>
-                        <p>Alle wichtigen Informationen</p>
-                    </div>
-                </div>
-                <div class="screenshot-item">
-                    <img src="images/Badi App/460x998bb-3.webp" alt="Kartenansicht" loading="lazy">
-                    <div class="screenshot-overlay">
-                        <h4>Kartenansicht</h4>
-                        <p>Badis in der Nähe finden</p>
-                    </div>
-                </div>
-                <div class="screenshot-item">
-                    <img src="images/Badi App/460x998bb-4.webp" alt="Favoriten" loading="lazy">
-                    <div class="screenshot-overlay">
-                        <h4>Favoriten</h4>
-                        <p>Ihre Lieblings-Badis</p>
-                    </div>
-                </div>
-                <div class="screenshot-item">
-                    <img src="images/Badi App/460x998bb-5.webp" alt="Suchfunktion" loading="lazy">
-                    <div class="screenshot-overlay">
-                        <h4>Suchfunktion</h4>
-                        <p>Schnell die richtige Badi finden</p>
-                    </div>
-                </div>
-                <div class="screenshot-item">
-                    <img src="images/Badi App/460x998bb-6.webp" alt="Einstellungen" loading="lazy">
-                    <div class="screenshot-overlay">
-                        <h4>Einstellungen</h4>
-                        <p>Personalisierte Präferenzen</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Features Section -->
-    <section class="app-features-section">
-        <div class="container">
-            <div class="section-header">
-                <h2>Funktionen</h2>
-                <p>Alles was Sie für den perfekten Badi-Besuch benötigen</p>
-            </div>
-            
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-thermometer-half"></i>
-                    </div>
-                    <h3>Wassertemperaturen</h3>
-                    <p>Aktuelle Wassertemperaturen aller Schweizer Badis - damit Sie immer wissen, ob das Wasser warm genug ist.</p>
-                </div>
-                
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-clock"></i>
-                    </div>
-                    <h3>Öffnungszeiten</h3>
-                    <p>Echtzeit-Öffnungszeiten und Informationen zu Saisonzeiten - nie wieder vor verschlossenen Türen stehen.</p>
-                </div>
-                
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-map-marker-alt"></i>
-                    </div>
-                    <h3>Standort-Service</h3>
-                    <p>Finden Sie automatisch die nächstgelegenen Badis oder suchen Sie gezielt nach bestimmten Orten.</p>
-                </div>
-                
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h3>Favoriten</h3>
-                    <p>Speichern Sie Ihre Lieblings-Badis und erhalten Sie personalisierte Benachrichtigungen über Änderungen.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Download Section -->
-    <section class="download-section">
-        <div class="container">
-            <div class="download-content">
-                <h2>Bereit für den nächsten Badi-Besuch?</h2>
-                <p>Laden Sie die Badi App jetzt kostenlos herunter und finden Sie die perfekte Badi für Ihren nächsten Schwimmausflug!</p>
-                
-                <div class="app-store-button-large">
-                    <a href="https://apps.apple.com/ch/app/badi-app/id6504495943?platform=mac" target="_blank" class="store-btn-large-link">
-                        <div class="store-btn-large-content">
-                            <i class="fab fa-apple"></i>
-                            <div class="store-btn-large-text">
-                                <span class="store-btn-large-small">Laden im</span>
-                                <span class="store-btn-large-title">App Store</span>
-                            </div>
-                            <div class="store-btn-large-price">Kostenlos</div>
                         </div>
-                    </a>
+                        <p class="lead">Entdecke die perfekte Badi für jeden Sommertag: aktuelle Wassertemperaturen pro Becken, Öffnungszeiten, Wetter und die nächste Badi in deiner Nähe.</p>
+                        <div class="actions">
+                            <a href="https://apps.apple.com/ch/app/badi-app/id6504495943" class="store-badge"><img src="images/badges/app-store-de.svg" alt="Badi App im App Store laden" width="120" height="40"></a>
+                            <span class="price">Kostenlos · für iPhone und iPad</span>
+                        </div>
+                    </div>
+                    <div class="media-phones">
+                        <img class="device device-card" src="images/apps/badi-app/01-liste.webp" alt="Badi App: Liste der Schweizer Badis" width="460" height="998">
+                        <img class="device device-card" src="images/apps/badi-app/02-temperaturen.webp" alt="Badi App: Wassertemperatur, Uhrzeit und Status pro Becken" width="460" height="998">
+                        <img class="device device-card" src="images/apps/badi-app/04-wetter-karte.webp" alt="Badi App: UV-Index und Karte einer Badi" width="460" height="998">
+                    </div>
                 </div>
-                
-                <div class="compatibility-info">
-                    <p><i class="fas fa-mobile-alt"></i> Verfügbar für iPhone und iPad</p>
-                    <p><i class="fas fa-flag"></i> Speziell für die Schweiz entwickelt</p>
+            </div>
+        </section>
+
+        <section class="facts-section">
+            <div class="container">
+                <dl class="facts">
+                    <div><dt>Preis</dt><dd>Kostenlos</dd></div>
+                    <div><dt>Geräte</dt><dd>iPhone, iPad</dd></div>
+                    <div><dt>Voraussetzung</dt><dd>iOS 17.4 oder neuer</dd></div>
+                    <div><dt>Sprachen</dt><dd>Deutsch, Französisch, Italienisch, Englisch</dd></div>
+                    <div><dt>Kategorie</dt><dd>Dienstprogramme, Navigation</dd></div>
+                    <div><dt>Daten</dt><dd>wiewarm.ch</dd></div>
+                </dl>
+            </div>
+        </section>
+
+        <section class="section" aria-labelledby="screenshots-title">
+            <div class="container">
+                <header class="section-head">
+                    <p class="eyebrow">Screenshots</p>
+                    <h2 id="screenshots-title">Alles für den Badi-Tag</h2>
+                    <p>Badis finden, Temperaturen prüfen und alle Infos auf einen Blick.</p>
+                </header>
+            </div>
+            <ul class="gallery gallery-phone">
+                <li>
+                    <figure>
+                        <a href="images/apps/badi-app/01-liste.webp"><img class="device device-card" src="images/apps/badi-app/01-liste.webp" alt="Alle Badis: Liste der Schweizer Schwimmbäder mit Suche" width="460" height="998" loading="lazy"></a>
+                        <figcaption><strong>Alle Badis</strong> Schnell die richtige Badi finden</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="images/apps/badi-app/02-temperaturen.webp"><img class="device device-card" src="images/apps/badi-app/02-temperaturen.webp" alt="Temperaturen: Wassertemperatur und Status pro Becken" width="460" height="998" loading="lazy"></a>
+                        <figcaption><strong>Temperaturen</strong> Wassertemperatur und Status pro Becken</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="images/apps/badi-app/03-informationen.webp"><img class="device device-card" src="images/apps/badi-app/03-informationen.webp" alt="Aktuelle Informationen: Daten von wiewarm.ch" width="460" height="998" loading="lazy"></a>
+                        <figcaption><strong>Aktuelle Informationen</strong> Daten von wiewarm.ch</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="images/apps/badi-app/04-wetter-karte.webp"><img class="device device-card" src="images/apps/badi-app/04-wetter-karte.webp" alt="Wetter und Karte: UV-Index und Lage der Badi" width="460" height="998" loading="lazy"></a>
+                        <figcaption><strong>Wetter und Karte</strong> UV-Index und Lage der Badi</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="images/apps/badi-app/05-bademeister.webp"><img class="device device-card" src="images/apps/badi-app/05-bademeister.webp" alt="Für Bademeister: Login mit Bad-ID und PIN" width="460" height="998" loading="lazy"></a>
+                        <figcaption><strong>Für Bademeister</strong> Werte direkt in der App ändern</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="images/apps/badi-app/06-willkommen.webp"><img class="device device-card" src="images/apps/badi-app/06-willkommen.webp" alt="Willkommen: Einführung beim ersten Start" width="460" height="998" loading="lazy"></a>
+                        <figcaption><strong>Willkommen</strong> Kurze Einführung beim ersten Start</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section" aria-labelledby="features-title">
+            <div class="container">
+                <header class="section-head">
+                    <p class="eyebrow">Funktionen</p>
+                    <h2 id="features-title">Was dich erwartet</h2>
+                    <p>Alle wichtigen Informationen zu Schweizer Schwimmbädern – übersichtlich in einer App.</p>
+                </header>
+                <div class="features">
+                    <article class="feature">
+                        <h3>Wassertemperaturen</h3>
+                        <p>Aktuelle Temperaturen pro Becken – damit du weisst, ob das Wasser angenehm ist, bevor du losgehst.</p>
+                    </article>
+                    <article class="feature">
+                        <h3>Seen</h3>
+                        <p>Im Tab «Seen» findest du die Wassertemperaturen der Schweizer Seen.</p>
+                    </article>
+                    <article class="feature">
+                        <h3>Öffnungszeiten</h3>
+                        <p>Öffnungszeiten und Status der Badi – nie mehr vor verschlossenen Türen stehen.</p>
+                    </article>
+                    <article class="feature">
+                        <h3>In deiner Nähe</h3>
+                        <p>Standortbasierte Suche, Karte und Kantons-Filter für die nächste Badi.</p>
+                    </article>
+                    <article class="feature">
+                        <h3>Favoriten und Mitteilungen</h3>
+                        <p>Lieblingsbadis speichern und über Temperaturänderungen und Status informiert werden.</p>
+                    </article>
+                    <article class="feature">
+                        <h3>Wetter</h3>
+                        <p>Wettervorhersage und UV-Index für deinen Badi-Besuch.</p>
+                    </article>
+                    <article class="feature">
+                        <h3>Für Bademeister</h3>
+                        <p>Mit Bad-ID und PIN aktualisieren Badis ihre Werte direkt in der App.</p>
+                    </article>
+                    <article class="feature">
+                        <h3>Mehrsprachig</h3>
+                        <p>Auf Deutsch, Französisch, Italienisch und Englisch.</p>
+                    </article>
                 </div>
+            </div>
+        </section>
+
+        <section class="section" aria-labelledby="download-title">
+            <div class="container">
+                <div class="cta">
+                    <img class="app-icon" src="images/apps/badi-app/icon.jpg" alt="" width="96" height="96" loading="lazy">
+                    <h2 id="download-title">Bereit für den nächsten Badi-Besuch?</h2>
+                    <p>Die Badi App ist kostenlos im App Store – für iPhone und iPad. Fragen oder Feedback? <a href="mailto:badiapp@isupport.ch">badiapp@isupport.ch</a></p>
+                    <div class="actions">
+                        <a href="https://apps.apple.com/ch/app/badi-app/id6504495943" class="store-badge"><img src="images/badges/app-store-de.svg" alt="Badi App im App Store laden" width="120" height="40"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <strong>iSupport.ch</strong>
+                <p>Apps aus der Schweiz – persönlich entwickelt.</p>
+            </div>
+            <nav aria-label="Apps">
+                <h2>Apps</h2>
+                <ul>
+                    <li><a href="cycleline.html">CycleLine</a></li>
+                    <li><a href="quiz-organizer.html">Quiz Organizer</a></li>
+                    <li><a href="badi-app.html">Badi App</a></li>
+                    <li><a href="drawvision.html">DrawVision</a></li>
+                </ul>
+            </nav>
+            <div>
+                <h2>Kontakt</h2>
+                <ul>
+                    <li><a href="mailto:info@isupport.ch">info@isupport.ch</a></li>
+                    <li><a href="datenschutz.html">Impressum &amp; Datenschutz</a></li>
+                </ul>
             </div>
         </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>iSupport.ch</h3>
-                    <p>Apps aus der Schweiz – persönlich entwickelt.</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Apps</h4>
-                    <ul>
-                        <li><a href="cycleline.html">CycleLine</a></li>
-                        <li><a href="quiz-organizer.html">Quiz Organizer</a></li>
-                        <li><a href="badi-app.html">Badi App</a></li>
-                        <li><a href="drawvision.html">DrawVision</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Rechtliches</h4>
-                    <ul>
-                        <li><a href="#impressum">Impressum</a></li>
-                        <li><a href="#datenschutz">Datenschutz</a></li>
-                        <li><a href="#agb">AGB</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 iSupport.ch. Alle Rechte vorbehalten.</p>
-            </div>
+            <p class="footer-bottom">&copy; 2026 iSupport.ch · Apple, iPhone, iPad, Mac und Apple Vision Pro sind Marken von Apple Inc.</p>
         </div>
     </footer>
 

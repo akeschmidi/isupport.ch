@@ -4,274 +4,246 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iSupport.ch – Apps von Stefan Schwinghammer</title>
-    <meta name="description" content="Vier Apps aus der Schweiz: CycleLine, Quiz Organizer, Badi App und DrawVision.">
-    <meta name="theme-color" content="#07090c">
+    <meta name="description" content="CycleLine, Quiz Organizer, Badi App und DrawVision – Apps aus der Schweiz für iPhone, iPad, Mac und Apple Vision Pro.">
+    <meta name="theme-color" content="#f5f5f7">
     <meta property="og:title" content="iSupport.ch – Apps von Stefan Schwinghammer">
-    <meta property="og:description" content="CycleLine, Quiz Organizer, Badi App und DrawVision – nützliche Apps aus der Schweiz.">
+    <meta property="og:description" content="CycleLine, Quiz Organizer, Badi App und DrawVision – Apps aus der Schweiz.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://isupport.ch">
+    <meta property="og:url" content="https://isupport.ch/">
+    <meta property="og:image" content="https://isupport.ch/images/Profilbilder/ProfilFoto_Blau.png">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="images/Profilbilder/ProfilFoto_Blau.png">
     <link rel="apple-touch-icon" href="images/Profilbilder/ProfilFoto_Blau.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-    <a class="skip-link" href="#apps">Zu den Apps</a>
+    <a class="skip-link" href="#main">Zum Inhalt</a>
 
-    <nav class="navbar" aria-label="Hauptnavigation">
-        <div class="nav-container">
-            <a href="#home" class="nav-logo">
+    <header class="site-header">
+        <nav class="nav container" aria-label="Hauptnavigation">
+            <a href="index.html" class="nav-logo">
                 <img src="images/Profilbilder/ProfilFoto_Blau.png" alt="" width="32" height="32">
                 <span>iSupport.ch</span>
             </a>
             <ul class="nav-menu">
-                <li><a href="#apps" class="nav-link">Apps</a></li>
-                <li><a href="#about" class="nav-link">Über mich</a></li>
-                <li><a href="#contact" class="nav-link nav-link-cta">Kontakt</a></li>
+                <li><a href="#apps">Apps</a></li>
+                <li><a href="#about">Über mich</a></li>
+                <li><a href="#contact" class="nav-cta">Kontakt</a></li>
             </ul>
-            <button class="hamburger" type="button" aria-label="Menü öffnen" aria-expanded="false">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </button>
-        </div>
-    </nav>
-
-    <header id="home" class="hero">
-        <div class="hero-container">
-            <p class="eyebrow">Swiss Made · App Store</p>
-            <h1 class="hero-title">Vier Apps.<br>Ein Entwickler.</h1>
-            <p class="hero-subtitle">Ich baue nützliche Apps für den Alltag – für Radtouren, Quiz-Abende, Baditage und das Zeichnen in Augmented Reality.</p>
-            <div class="hero-buttons">
-                <a href="#apps" class="btn btn-primary">Alle Apps ansehen</a>
-                <a href="#contact" class="btn btn-secondary">Projekt besprechen</a>
-            </div>
-            <div class="hero-pills" aria-label="Schnellzugriff">
-                <a href="cycleline.html" class="hero-pill pill-cycle">
-                    <i class="fas fa-bicycle"></i> CycleLine
-                </a>
-                <a href="quiz-organizer.html" class="hero-pill pill-pub">
-                    <i class="fas fa-trophy"></i> Quiz Organizer
-                </a>
-                <a href="badi-app.html" class="hero-pill pill-badi">
-                    <i class="fas fa-swimming-pool"></i> Badi App
-                </a>
-                <a href="drawvision.html" class="hero-pill pill-draw">
-                    <i class="fas fa-pencil-alt"></i> DrawVision
-                </a>
-            </div>
-        </div>
+        </nav>
     </header>
 
-    <main>
-        <section id="apps" class="apps-section">
-            <div class="container">
-                <div class="section-header">
-                    <p class="eyebrow">Übersicht</p>
-                    <h2>Alle Apps</h2>
-                    <p>Für Mac, iPhone, iPad und Apple Vision Pro.</p>
+    <main id="main">
+        <section class="hero">
+            <div class="container hero-grid">
+                <div>
+                    <p class="eyebrow">Apps aus der Schweiz</p>
+                    <h1>Vier Apps.<br>Ein Entwickler.</h1>
+                    <p class="lead">Ich entwickle Apps für iPhone, iPad, Mac und Apple Vision Pro – für Radtouren, Quiz-Abende, Baditage und das Zeichnen im Raum.</p>
+                    <div class="actions">
+                        <a href="#apps" class="btn btn-primary">Apps entdecken</a>
+                        <a href="#contact" class="btn btn-ghost">Projekt besprechen</a>
+                    </div>
                 </div>
+                <ul class="hero-apps">
+                    <li>
+                        <a href="cycleline.html" class="app-tile">
+                            <img class="app-icon" src="images/apps/cycleline/icon.jpg" alt="" width="64" height="64">
+                            <span><strong>CycleLine</strong><small>Rad-Navigation · iPhone</small></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="quiz-organizer.html" class="app-tile">
+                            <img class="app-icon" src="images/apps/quiz-organizer/icon.jpg" alt="" width="64" height="64">
+                            <span><strong>Quiz Organizer</strong><small>Quiz-Abende · Mac, iPhone, iPad</small></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="badi-app.html" class="app-tile">
+                            <img class="app-icon" src="images/apps/badi-app/icon.jpg" alt="" width="64" height="64">
+                            <span><strong>Badi App</strong><small>Schwimmbäder · iPhone, iPad</small></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="drawvision.html" class="app-tile">
+                            <img class="app-icon is-round" src="images/apps/drawvision/icon.jpg" alt="" width="64" height="64">
+                            <span><strong>DrawVision</strong><small>Zeichnen in AR · Vision Pro</small></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
 
-                <div class="apps-bento">
-                    <a href="cycleline.html" class="app-showcase theme-cycle">
-                        <div class="app-showcase-media media-phone">
-                            <img src="images/CycleLine/01-navigation.jpg" alt="CycleLine: Abbiegung und Bike-Computer">
-                        </div>
-                        <div class="app-showcase-copy">
-                            <div class="app-kicker">
-                                <span class="app-badge">Navigation</span>
-                                <span class="app-price">Kostenlos</span>
-                            </div>
-                            <h3>CycleLine</h3>
-                            <p>Radnavigation mit Stimme: Route planen, GPX laden, Anstiege sehen – ohne Account.</p>
-                            <div class="app-meta">
-                                <span>iPhone</span>
-                                <span>GPX</span>
-                                <span>Offline</span>
-                            </div>
-                            <span class="app-link">Mehr erfahren <i class="fas fa-arrow-right"></i></span>
-                        </div>
-                    </a>
+        <section id="apps" class="section">
+            <div class="container">
+                <header class="section-head">
+                    <p class="eyebrow">Apps</p>
+                    <h2>Alle Apps im Überblick</h2>
+                    <p>Jede App löst eine konkrete Aufgabe – klar bedienbar und im App Store erhältlich.</p>
+                </header>
 
-                    <a href="quiz-organizer.html" class="app-showcase theme-pub">
-                        <div class="app-showcase-media media-desktop">
-                            <img src="images/PubRanker/1286x804bb.webp" alt="Quiz Organizer: Neues Quiz erstellen auf dem Mac">
+                <article class="showcase theme-cycleline">
+                    <div class="showcase-copy">
+                        <img class="app-icon app-icon-lg" src="images/apps/cycleline/icon.jpg" alt="" width="88" height="88">
+                        <h3>CycleLine</h3>
+                        <p class="tagline">Turn-by-Turn fürs Rad</p>
+                        <p>Fahrrad-Navigation, die du am Lenker lesen kannst: Route planen, GPX laden oder eine Radroute in der Nähe nehmen – mit Sprachansagen, Anstiegen und Offline-Karte.</p>
+                        <ul class="chips">
+                            <li>Kostenlos</li>
+                            <li>iPhone</li>
+                            <li>Ohne Account</li>
+                            <li>Ohne Werbung</li>
+                        </ul>
+                        <div class="actions">
+                            <a href="cycleline.html" class="btn btn-accent">Mehr zu CycleLine</a>
+                            <a href="https://apps.apple.com/ch/app/cycleline/id6802073598" class="store-badge"><img src="images/badges/app-store-de-white.svg" alt="CycleLine im App Store laden" width="120" height="40"></a>
                         </div>
-                        <div class="app-showcase-copy">
-                            <div class="app-kicker">
-                                <span class="app-badge">Quiz</span>
-                                <span class="app-price">CHF 1.00</span>
-                            </div>
-                            <h3>Quiz Organizer</h3>
-                            <p>Quiz-Abende steuern: Teams, Live-Punkte und ein Leaderboard für den zweiten Bildschirm.</p>
-                            <div class="app-meta">
-                                <span>macOS</span>
-                                <span>iOS</span>
-                                <span>iCloud</span>
-                            </div>
-                            <span class="app-link">Mehr erfahren <i class="fas fa-arrow-right"></i></span>
-                        </div>
-                    </a>
+                    </div>
+                    <div class="showcase-media media-phones">
+                        <img class="device device-phone" src="images/apps/cycleline/06-welcome.jpg" alt="CycleLine: Startbildschirm mit Demo-Route, Route planen und GPX-Import" width="720" height="1557" loading="lazy">
+                        <img class="device device-phone" src="images/apps/cycleline/01-navigation.jpg" alt="CycleLine: Navigation mit Abbiegung, Tempo und Ankunftszeit" width="720" height="1557" loading="lazy">
+                        <img class="device device-phone" src="images/apps/cycleline/04-variants.jpg" alt="CycleLine: drei Routenvarianten mit Höhenprofil" width="720" height="1557" loading="lazy">
+                    </div>
+                </article>
 
-                    <a href="badi-app.html" class="app-showcase theme-badi">
-                        <div class="app-showcase-media media-phone">
-                            <img src="images/Badi App/460x998bb-2.webp" alt="Badi App: Liste Schweizer Schwimmbäder">
+                <article class="showcase theme-quiz">
+                    <div class="showcase-copy">
+                        <img class="app-icon app-icon-lg" src="images/apps/quiz-organizer/icon.jpg" alt="" width="88" height="88">
+                        <h3>Quiz Organizer</h3>
+                        <p class="tagline">Pub-Quiz planen, durchführen, auswerten</p>
+                        <p>Teams verwalten, Quiz planen, Punkte live erfassen und die Rangliste im Präsentationsmodus auf dem Beamer zeigen – auf Mac, iPad und iPhone, synchron über iCloud.</p>
+                        <ul class="chips">
+                            <li>CHF 1.00</li>
+                            <li>Mac</li>
+                            <li>iPhone</li>
+                            <li>iPad</li>
+                            <li>iCloud</li>
+                        </ul>
+                        <div class="actions">
+                            <a href="quiz-organizer.html" class="btn btn-accent">Mehr zu Quiz Organizer</a>
+                            <a href="https://apps.apple.com/ch/app/quiz-organizer/id6754255330" class="store-badge"><img src="images/badges/app-store-de.svg" alt="Quiz Organizer im App Store laden" width="120" height="40"></a>
                         </div>
-                        <div class="app-showcase-copy">
-                            <div class="app-kicker">
-                                <span class="app-badge">Freizeit</span>
-                                <span class="app-price">Kostenlos</span>
-                            </div>
-                            <h3>Badi App</h3>
-                            <p>Wassertemperaturen, Öffnungszeiten und die nächste Badi in der Nähe.</p>
-                            <div class="app-meta">
-                                <span>iPhone</span>
-                                <span>iPad</span>
-                                <span>Schweiz</span>
-                            </div>
-                            <span class="app-link">Mehr erfahren <i class="fas fa-arrow-right"></i></span>
-                        </div>
-                    </a>
+                    </div>
+                    <div class="showcase-media media-combo">
+                        <img class="device device-mac" src="images/apps/quiz-organizer/mac-auswerten.jpg" alt="Quiz Organizer auf dem Mac: Auswertung mit Podium und Rangliste" width="1600" height="1000" loading="lazy">
+                        <img class="device device-phone" src="images/apps/quiz-organizer/iphone-punkte.jpg" alt="Quiz Organizer auf dem iPhone: Punkte pro Team erfassen" width="720" height="1564" loading="lazy">
+                    </div>
+                </article>
 
-                    <a href="drawvision.html" class="app-showcase theme-draw">
-                        <div class="app-showcase-media media-spatial">
-                            <img src="images/Draw Vision/800x400bb-2.png" alt="DrawVision: AR-Projektion in einer Galerie">
+                <article class="showcase theme-badi">
+                    <div class="showcase-copy">
+                        <img class="app-icon app-icon-lg" src="images/apps/badi-app/icon.jpg" alt="" width="88" height="88">
+                        <h3>Badi App</h3>
+                        <p class="tagline">Dein Schweizer Schwimmbad-Guide</p>
+                        <p>Wassertemperaturen pro Becken, Öffnungszeiten, Wetter und die nächste Badi in deiner Nähe – dazu die Temperaturen der Schweizer Seen.</p>
+                        <ul class="chips">
+                            <li>Kostenlos</li>
+                            <li>iPhone</li>
+                            <li>iPad</li>
+                            <li>DE · FR · IT · EN</li>
+                        </ul>
+                        <div class="actions">
+                            <a href="badi-app.html" class="btn btn-accent">Mehr zur Badi App</a>
+                            <a href="https://apps.apple.com/ch/app/badi-app/id6504495943" class="store-badge"><img src="images/badges/app-store-de.svg" alt="Badi App im App Store laden" width="120" height="40"></a>
                         </div>
-                        <div class="app-showcase-copy">
-                            <div class="app-kicker">
-                                <span class="app-badge">AR</span>
-                                <span class="app-price">CHF 2.00</span>
-                            </div>
-                            <h3>DrawVision</h3>
-                            <p>Bilder in den Raum legen und nachzeichnen – auf Apple Vision Pro.</p>
-                            <div class="app-meta">
-                                <span>visionOS</span>
-                                <span>Spatial</span>
-                            </div>
-                            <span class="app-link">Mehr erfahren <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                    <div class="showcase-media media-phones">
+                        <img class="device device-card" src="images/apps/badi-app/01-liste.webp" alt="Badi App: Liste der Schweizer Badis" width="460" height="998" loading="lazy">
+                        <img class="device device-card" src="images/apps/badi-app/02-temperaturen.webp" alt="Badi App: Wassertemperatur, Uhrzeit und Status pro Becken" width="460" height="998" loading="lazy">
+                        <img class="device device-card" src="images/apps/badi-app/04-wetter-karte.webp" alt="Badi App: UV-Index und Karte einer Badi" width="460" height="998" loading="lazy">
+                    </div>
+                </article>
+
+                <article class="showcase theme-drawvision">
+                    <div class="showcase-copy">
+                        <img class="app-icon app-icon-lg is-round" src="images/apps/drawvision/icon.jpg" alt="" width="88" height="88">
+                        <h3>DrawVision</h3>
+                        <p class="tagline">Zeichnen mit Apple Vision Pro</p>
+                        <p>Leg eine Vorlage oder ein eigenes Bild in den Raum, fixiere es auf Wand, Tisch oder Boden und zeichne es auf Papier oder Leinwand nach.</p>
+                        <ul class="chips">
+                            <li>CHF 2.00</li>
+                            <li>Apple Vision Pro</li>
+                            <li>39 Vorlagen</li>
+                        </ul>
+                        <div class="actions">
+                            <a href="drawvision.html" class="btn btn-accent">Mehr zu DrawVision</a>
+                            <a href="https://apps.apple.com/ch/app/drawvision/id6748315594" class="store-badge"><img src="images/badges/app-store-de-white.svg" alt="DrawVision im App Store laden" width="120" height="40"></a>
                         </div>
-                    </a>
+                    </div>
+                    <div class="showcase-media media-stack">
+                        <img class="device device-wide" src="images/apps/drawvision/03-fixiert.jpg" alt="DrawVision: Bergmotiv an der Wand fixiert, daneben Grösse und Transparenz" width="1600" height="900" loading="lazy">
+                        <img class="device device-wide" src="images/apps/drawvision/01-launch.jpg" alt="DrawVision: Hauptmenü mit Vorlagen nach Kategorien" width="1600" height="900" loading="lazy">
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container about">
+                <img class="about-portrait" src="images/Profilbilder/ProfilFoto_Blau.png" alt="Illustration von Stefan Schwinghammer" width="512" height="512" loading="lazy">
+                <div>
+                    <p class="eyebrow">Über mich</p>
+                    <h2>Stefan Schwinghammer</h2>
+                    <p>Ich bin unabhängiger App-Entwickler in der Schweiz. Hinter iSupport.ch stehen Apps, die ein konkretes Problem lösen – ohne Schnickschnack, mit Fokus auf klare Bedienung.</p>
+                    <p>Von der Idee über Design und Entwicklung bis zum Launch im App Store setze ich Projekte persönlich um.</p>
+                    <dl class="stats">
+                        <div><dt>Apps im App Store</dt><dd>4</dd></div>
+                        <div><dt>Apple-Plattformen</dt><dd>4</dd></div>
+                        <div><dt>Swiss Made</dt><dd>100 %</dd></div>
+                    </dl>
                 </div>
             </div>
         </section>
 
-        <section id="about" class="about-section">
+        <section id="contact" class="section">
             <div class="container">
-                <div class="about-content">
-                    <div class="about-text">
-                        <p class="eyebrow">Über mich</p>
-                        <h2>Stefan Schwinghammer</h2>
-                        <p>Ich bin unabhängiger App-Entwickler in der Schweiz. Hinter iSupport.ch stehen Apps, die ein konkretes Problem lösen – ohne Schnickschnack, mit Fokus auf klare Bedienung.</p>
-                        <p>Von der Idee über Design und Entwicklung bis zum Launch im App Store setze ich Projekte persönlich um.</p>
-                        <div class="stats">
-                            <div class="stat">
-                                <strong>4</strong>
-                                <span>Apps im Store</span>
-                            </div>
-                            <div class="stat">
-                                <strong>15+</strong>
-                                <span>Sprachen</span>
-                            </div>
-                            <div class="stat">
-                                <strong>100%</strong>
-                                <span>Swiss Made</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="about-image">
-                        <img src="images/Profilbilder/ProfilFoto_Blau.png" alt="Illustration von Stefan Schwinghammer" class="profile-portrait">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="contact-section">
-            <div class="container">
-                <div class="section-header">
+                <header class="section-head">
                     <p class="eyebrow">Kontakt</p>
                     <h2>Schreiben Sie mir</h2>
                     <p>Eine Idee für eine App – oder eine Frage zu CycleLine, Quiz Organizer, Badi App oder DrawVision?</p>
-                </div>
-                <div class="contact-content">
-                    <div class="contact-info">
-                        <a class="contact-item" href="mailto:info@isupport.ch">
-                            <i class="fas fa-envelope"></i>
-                            <div class="contact-item-content">
-                                <h4>E-Mail</h4>
-                                <p>info@isupport.ch</p>
-                            </div>
-                        </a>
-                        <div class="contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div class="contact-item-content">
-                                <h4>Standort</h4>
-                                <p>Schweiz</p>
-                            </div>
+                </header>
+                <div class="contact">
+                    <div class="contact-card">
+                        <h3>E-Mail</h3>
+                        <p>Für Fragen zu den Apps, Feedback oder eine neue App-Idee.</p>
+                        <div class="actions">
+                            <a href="mailto:info@isupport.ch" class="btn btn-primary">info@isupport.ch</a>
                         </div>
                     </div>
-                    <form class="contact-form" action="https://formspree.io/f/xjkqvypw" method="POST">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" placeholder="Ihr Name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">E-Mail</label>
-                            <input type="email" id="email" name="email" placeholder="Ihre E-Mail" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">Betreff</label>
-                            <input type="text" id="subject" name="_subject" placeholder="Worum geht es?" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Nachricht</label>
-                            <textarea id="message" name="message" placeholder="Ihre Nachricht" rows="5" required></textarea>
-                        </div>
-                        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
-                        <input type="hidden" name="_next" value="https://isupport.ch/thank-you.html">
-                        <div class="form-buttons">
-                            <button type="submit" class="btn btn-primary">Nachricht senden</button>
-                            <a href="mailto:info@isupport.ch" class="btn btn-secondary">E-Mail öffnen</a>
-                        </div>
-                    </form>
+                    <div class="contact-card">
+                        <h3>Standort</h3>
+                        <p>Schweiz</p>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>iSupport.ch</h3>
-                    <p>Apps aus der Schweiz – persönlich entwickelt.</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Apps</h4>
-                    <ul>
-                        <li><a href="cycleline.html">CycleLine</a></li>
-                        <li><a href="quiz-organizer.html">Quiz Organizer</a></li>
-                        <li><a href="badi-app.html">Badi App</a></li>
-                        <li><a href="drawvision.html">DrawVision</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Rechtliches</h4>
-                    <ul>
-                        <li><a href="#impressum">Impressum</a></li>
-                        <li><a href="#datenschutz">Datenschutz</a></li>
-                        <li><a href="#agb">AGB</a></li>
-                    </ul>
-                </div>
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <strong>iSupport.ch</strong>
+                <p>Apps aus der Schweiz – persönlich entwickelt.</p>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 iSupport.ch. Alle Rechte vorbehalten.</p>
+            <nav aria-label="Apps">
+                <h2>Apps</h2>
+                <ul>
+                    <li><a href="cycleline.html">CycleLine</a></li>
+                    <li><a href="quiz-organizer.html">Quiz Organizer</a></li>
+                    <li><a href="badi-app.html">Badi App</a></li>
+                    <li><a href="drawvision.html">DrawVision</a></li>
+                </ul>
+            </nav>
+            <div>
+                <h2>Kontakt</h2>
+                <ul>
+                    <li><a href="mailto:info@isupport.ch">info@isupport.ch</a></li>
+                    <li><a href="datenschutz.html">Impressum &amp; Datenschutz</a></li>
+                </ul>
             </div>
         </div>
+        <div class="container">
+            <p class="footer-bottom">&copy; 2026 iSupport.ch · Apple, iPhone, iPad, Mac und Apple Vision Pro sind Marken von Apple Inc.</p>
+        </div>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>

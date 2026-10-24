@@ -3,235 +3,243 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CycleLine – Radnavigation mit Stimme | iSupport.ch</title>
+    <title>CycleLine – Fahrrad-Navigation fürs iPhone | iSupport.ch</title>
     <meta name="description" content="CycleLine – Fahrrad-Navigation fürs iPhone: Route planen, GPX laden, Turn-by-Turn mit Stimme, Anstiege und Offline-Karte. Ohne Account, ohne Werbung.">
+    <meta name="theme-color" content="#f5f5f7">
+    <meta property="og:title" content="CycleLine – Turn-by-Turn fürs Rad">
+    <meta property="og:description" content="Fahrrad-Navigation fürs iPhone: Route planen, GPX laden, Sprachansagen, Anstiege und Offline-Karte.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://isupport.ch/cycleline">
+    <meta property="og:image" content="https://isupport.ch/images/apps/cycleline/icon.jpg">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="images/Profilbilder/ProfilFoto_Blau.png">
     <link rel="apple-touch-icon" href="images/Profilbilder/ProfilFoto_Blau.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-    <nav class="navbar" aria-label="Hauptnavigation">
-        <div class="nav-container">
+    <a class="skip-link" href="#main">Zum Inhalt</a>
+
+    <header class="site-header">
+        <nav class="nav container" aria-label="Hauptnavigation">
             <a href="index.html" class="nav-logo">
                 <img src="images/Profilbilder/ProfilFoto_Blau.png" alt="" width="32" height="32">
                 <span>iSupport.ch</span>
             </a>
             <ul class="nav-menu">
-                <li><a href="index.html#apps" class="nav-link">Apps</a></li>
-                <li><a href="index.html#about" class="nav-link">Über mich</a></li>
-                <li><a href="index.html#contact" class="nav-link nav-link-cta">Kontakt</a></li>
+                <li><a href="index.html#apps">Apps</a></li>
+                <li><a href="index.html#about">Über mich</a></li>
+                <li><a href="index.html#contact" class="nav-cta">Kontakt</a></li>
             </ul>
-            <button class="hamburger" type="button" aria-label="Menü öffnen" aria-expanded="false">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </button>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <section class="app-hero theme-cycle">
-        <div class="container">
-            <a href="index.html#apps" class="back-link"><i class="fas fa-arrow-left"></i> Alle Apps</a>
-            <div class="app-hero-content">
-                <div class="app-hero-text">
-                    <div class="app-icon-large">
-                        <i class="fas fa-bicycle"></i>
-                    </div>
-                    <h1 class="app-hero-title">CycleLine</h1>
-                    <p class="app-hero-subtitle">Turn-by-Turn fürs Rad</p>
-                    <p class="app-description">Fahrrad-Navigation, die du am Lenker lesen kannst: grosse Abbiegungen, klare Zahlen, dunkles Display. Route planen, GPX laden oder eine Radroute in der Nähe nehmen – dann folgen, nicht scrollen.</p>
-
-                    <div class="app-features-list">
-                        <div class="feature-item">
-                            <i class="fas fa-route"></i>
-                            <span>Route planen oder GPX laden</span>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-volume-up"></i>
-                            <span>Turn-by-Turn mit Stimme</span>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-mountain"></i>
-                            <span>Anstiege und Höhenprofil</span>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-map"></i>
-                            <span>Offline-Karte entlang der Tour</span>
-                        </div>
-                    </div>
-
-                    <div class="app-store-button">
-                        <a href="https://apps.apple.com/ch/app/cycleline/id6802073598" target="_blank" class="store-btn">
-                            <div class="store-btn-content">
-                                <i class="fab fa-apple"></i>
-                                <div class="store-btn-text">
-                                    <span class="store-btn-small">Laden im</span>
-                                    <span class="store-btn-large">App Store</span>
-                                </div>
+    <main id="main" class="theme-cycleline">
+        <section class="app-hero">
+            <div class="container">
+                <div class="app-hero-panel">
+                    <div>
+                        <a href="index.html#apps" class="back-link">← Alle Apps</a>
+                        <div class="app-title">
+                            <img class="app-icon" src="images/apps/cycleline/icon.jpg" alt="" width="104" height="104">
+                            <div>
+                                <h1>CycleLine</h1>
+                                <p class="tagline">Turn-by-Turn fürs Rad</p>
                             </div>
-                            <div class="store-btn-price">Kostenlos</div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="app-hero-image">
-                    <img src="images/CycleLine/01-navigation.jpg" alt="CycleLine: Abbiegung in 18 Metern auf die Bahnhofstrasse" class="hero-screenshot mobile-screenshot">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="screenshots-section">
-        <div class="container">
-            <div class="section-header">
-                <h2>Screenshots</h2>
-                <p>Planen, fahren, Anstiege sehen – ohne Account und ohne Werbung</p>
-            </div>
-
-            <div class="screenshots-grid mobile-grid">
-                <div class="screenshot-item">
-                    <img src="images/CycleLine/01-navigation.jpg" alt="Navigation mit Abbiegungsbanner" loading="lazy">
-                    <div class="screenshot-overlay">
-                        <h4>Navigation</h4>
-                        <p>Abbiegung, Tempo und Ankunft</p>
-                    </div>
-                </div>
-                <div class="screenshot-item">
-                    <img src="images/CycleLine/02-start.jpg" alt="Route bereit zum Start" loading="lazy">
-                    <div class="screenshot-overlay">
-                        <h4>Start</h4>
-                        <p>Höhe, POIs und Navigation starten</p>
-                    </div>
-                </div>
-                <div class="screenshot-item">
-                    <img src="images/CycleLine/03-planen.jpg" alt="Route von Zürich Seefeld nach Uetliberg planen" loading="lazy">
-                    <div class="screenshot-overlay">
-                        <h4>Planen</h4>
-                        <p>Start, Ziel und Zwischenziele</p>
-                    </div>
-                </div>
-                <div class="screenshot-item">
-                    <img src="images/CycleLine/04-varianten.jpg" alt="Routenvarianten A B C" loading="lazy">
-                    <div class="screenshot-overlay">
-                        <h4>Varianten</h4>
-                        <p>Alternativen A, B und C vergleichen</p>
-                    </div>
-                </div>
-                <div class="screenshot-item">
-                    <img src="images/CycleLine/05-anstieg.jpg" alt="Nächster Anstieg mit Steigung" loading="lazy">
-                    <div class="screenshot-overlay">
-                        <h4>Anstieg</h4>
-                        <p>Was noch kommt, bevor es steil wird</p>
-                    </div>
-                </div>
-                <div class="screenshot-item">
-                    <img src="images/CycleLine/06-willkommen.jpg" alt="Willkommen in CycleLine" loading="lazy">
-                    <div class="screenshot-overlay">
-                        <h4>Willkommen</h4>
-                        <p>Dem Schild folgen, nicht dem Bildschirm</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="app-features-section">
-        <div class="container">
-            <div class="section-header">
-                <h2>Funktionen</h2>
-                <p>Für Alltag, Feierabendrunde und Mehrtagestour</p>
-            </div>
-
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-map-marked-alt"></i>
-                    </div>
-                    <h3>Route planen oder laden</h3>
-                    <p>Adresse, Nadel auf der Karte oder GPX. OSM-Radrouten in der Nähe und BRouter-Profile für Tour, Gravel und Rennrad.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-bullhorn"></i>
-                    </div>
-                    <h3>Führung am Lenker</h3>
-                    <p>Grosse Abbiegungen mit Strassennamen, deutsche Sprachansagen, Haptik und Live Activity auf dem Sperrbildschirm.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-chart-area"></i>
-                    </div>
-                    <h3>Höhe und Anstiege</h3>
-                    <p>Höhenprofil vor dem Start. Während der Fahrt siehst du den nächsten Anstieg – Länge, Steigung, verbleibende Höhenmeter.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-user-shield"></i>
-                    </div>
-                    <h3>Ohne Account</h3>
-                    <p>Keine Werbung, kein Tracking-SDK. Standort nur für Karte, Führung und Widgets. Offline-Kacheln entlang der geladenen Route.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="download-section">
-        <div class="container">
-            <div class="download-content">
-                <h2>Bereit für die nächste Tour?</h2>
-                <p>CycleLine jetzt kostenlos im App Store – für iPhone, ohne Konto und ohne Werbung.</p>
-                <div class="app-store-button-large">
-                    <a href="https://apps.apple.com/ch/app/cycleline/id6802073598" target="_blank" class="store-btn-large-link">
-                        <div class="store-btn-large-content">
-                            <i class="fab fa-apple"></i>
-                            <div class="store-btn-large-text">
-                                <span class="store-btn-large-small">Laden im</span>
-                                <span class="store-btn-large-title">App Store</span>
-                            </div>
-                            <div class="store-btn-large-price">Kostenlos</div>
                         </div>
-                    </a>
+                        <p class="lead">Fahrrad-Navigation, die du am Lenker lesen kannst: grosse Abbiegungen, klare Zahlen, dunkles Display. Plane eine Tour, lade ein GPX oder nimm eine Radroute in der Nähe – dann folgen, nicht scrollen.</p>
+                        <div class="actions">
+                            <a href="https://apps.apple.com/ch/app/cycleline/id6802073598" class="store-badge"><img src="images/badges/app-store-de-white.svg" alt="CycleLine im App Store laden" width="120" height="40"></a>
+                            <span class="price">Kostenlos · für iPhone</span>
+                        </div>
+                    </div>
+                    <div class="media-phones">
+                        <img class="device device-phone" src="images/apps/cycleline/03-planning.jpg" alt="CycleLine: Route von Zürich Seefeld über Bellevue zum Uetliberg planen" width="720" height="1557">
+                        <img class="device device-phone" src="images/apps/cycleline/01-navigation.jpg" alt="CycleLine: Navigation mit Abbiegung, Tempo und Ankunftszeit" width="720" height="1557">
+                        <img class="device device-phone" src="images/apps/cycleline/05-climb.jpg" alt="CycleLine: nächster Anstieg mit Kategorie und Höhenmetern" width="720" height="1557">
+                    </div>
                 </div>
-                <div class="compatibility-info">
-                    <p><i class="fas fa-mobile-alt"></i> iPhone · iOS 17 oder neuer</p>
-                    <p><i class="fas fa-ban"></i> Kein Account, keine Werbung</p>
+            </div>
+        </section>
+
+        <section class="facts-section">
+            <div class="container">
+                <dl class="facts">
+                    <div><dt>Preis</dt><dd>Kostenlos</dd></div>
+                    <div><dt>Gerät</dt><dd>iPhone</dd></div>
+                    <div><dt>Voraussetzung</dt><dd>iOS 17 oder neuer</dd></div>
+                    <div><dt>Sprachen</dt><dd>10, u. a. Deutsch, Englisch, Französisch, Italienisch</dd></div>
+                    <div><dt>Kategorie</dt><dd>Navigation, Reisen</dd></div>
+                    <div><dt>Konto</dt><dd>Nicht nötig</dd></div>
+                </dl>
+            </div>
+        </section>
+
+        <section class="section" aria-labelledby="screenshots-title">
+            <div class="container">
+                <header class="section-head">
+                    <p class="eyebrow">Screenshots</p>
+                    <h2 id="screenshots-title">Planen, fahren, Anstiege sehen</h2>
+                    <p>Vom ersten Start bis zum nächsten Anstieg – so sieht CycleLine auf dem iPhone aus.</p>
+                </header>
+            </div>
+            <ul class="gallery gallery-phone">
+                <li>
+                    <figure>
+                        <a href="images/apps/cycleline/06-welcome.jpg"><img class="device device-phone" src="images/apps/cycleline/06-welcome.jpg" alt="Willkommen: Demo-Route fahren, Route planen oder GPX importieren" width="720" height="1557" loading="lazy"></a>
+                        <figcaption><strong>Willkommen</strong> Demo-Route, Route planen oder GPX importieren</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="images/apps/cycleline/03-planning.jpg"><img class="device device-phone" src="images/apps/cycleline/03-planning.jpg" alt="Route planen: Start, Zwischenziel, Ziel und Streckentyp" width="720" height="1557" loading="lazy"></a>
+                        <figcaption><strong>Route planen</strong> Start, Zwischenziel, Ziel und Streckentyp</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="images/apps/cycleline/04-variants.jpg"><img class="device device-phone" src="images/apps/cycleline/04-variants.jpg" alt="Varianten: Routen A, B und C mit Fahrzeit, Distanz und Höhenprofil" width="720" height="1557" loading="lazy"></a>
+                        <figcaption><strong>Varianten</strong> A, B und C mit Fahrzeit, Distanz und Höhenprofil</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="images/apps/cycleline/02-start.jpg"><img class="device device-phone" src="images/apps/cycleline/02-start.jpg" alt="Route bereit: Distanz, Höhenmeter und Abbiegungen vor dem Start" width="720" height="1557" loading="lazy"></a>
+                        <figcaption><strong>Route bereit</strong> Distanz, Höhenmeter und Abbiegungen vor dem Start</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="images/apps/cycleline/01-navigation.jpg"><img class="device device-phone" src="images/apps/cycleline/01-navigation.jpg" alt="Navigation: Abbiegung, Tempo, Reststrecke und Ankunft" width="720" height="1557" loading="lazy"></a>
+                        <figcaption><strong>Navigation</strong> Abbiegung, Tempo, Reststrecke und Ankunft</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="images/apps/cycleline/05-climb.jpg"><img class="device device-phone" src="images/apps/cycleline/05-climb.jpg" alt="Nächster Anstieg: Kategorie, Länge und Höhenmeter während der Fahrt" width="720" height="1557" loading="lazy"></a>
+                        <figcaption><strong>Nächster Anstieg</strong> Was noch kommt, bevor es steil wird</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section" aria-labelledby="features-title">
+            <div class="container">
+                <header class="section-head">
+                    <p class="eyebrow">Funktionen</p>
+                    <h2 id="features-title">Für Alltag, Feierabendrunde und Mehrtagestour</h2>
+                    <p>Für Gravel, Trekking und Rennrad – für alle, die keine Social-App wollen, sondern eine Navi, die den Weg sagt.</p>
+                </header>
+                <div class="features">
+                    <article class="feature">
+                        <h3>Route planen</h3>
+                        <ul>
+                            <li>Start, Ziel und Zwischenziele per Adresse oder Nadel auf der Karte</li>
+                            <li>Profile für Tour/Radwege, Gravel, Rennrad und weitere</li>
+                            <li>Alternativen A/B/C mit Distanz, Höhenmetern und Fahrzeit</li>
+                        </ul>
+                    </article>
+                    <article class="feature">
+                        <h3>Route laden</h3>
+                        <ul>
+                            <li>GPX importieren und sofort folgen</li>
+                            <li>Gespeicherte Touren in der Bibliothek</li>
+                            <li>OSM-Radrouten in der Nähe entdecken</li>
+                            <li>Demo-Route zum Ausprobieren</li>
+                        </ul>
+                    </article>
+                    <article class="feature">
+                        <h3>Während der Fahrt</h3>
+                        <ul>
+                            <li>Grosse Abbiegungsanzeige mit Strassenname</li>
+                            <li>Sprachansagen und Haptik</li>
+                            <li>Bike-Computer mit Tempo, Reststrecke und Ankunft</li>
+                            <li>Off-Route-Warnung und automatische Neuberechnung</li>
+                            <li>Live Activity auf Sperrbildschirm und Dynamic Island</li>
+                        </ul>
+                    </article>
+                    <article class="feature">
+                        <h3>Höhe und Anstiege</h3>
+                        <ul>
+                            <li>Höhenprofil der ganzen Tour, auch vor dem Start</li>
+                            <li>Nächster Anstieg mit Kategorie, Steigung und verbleibenden Höhenmetern</li>
+                        </ul>
+                    </article>
+                    <article class="feature">
+                        <h3>Orte entlang der Route</h3>
+                        <ul>
+                            <li>Wasser, Brunnen und Toiletten</li>
+                            <li>Bäckerei, Restaurant, Café und Supermarkt</li>
+                            <li>Luftpumpe, Veloladen und Rad-Reparatur</li>
+                            <li>Hütte, Hotel, Picknick und Badestelle</li>
+                        </ul>
+                    </article>
+                    <article class="feature">
+                        <h3>Offline</h3>
+                        <ul>
+                            <li>Kartenkacheln entlang der Route herunterladen</li>
+                            <li>Geladene GPX- und Demo-Routen ohne Netz navigieren</li>
+                            <li>Sprachansagen und Führung bleiben nutzbar</li>
+                        </ul>
+                    </article>
+                    <article class="feature">
+                        <h3>Nach der Tour</h3>
+                        <ul>
+                            <li>Routen speichern, laden und als GPX teilen</li>
+                            <li>Fahrtenhistorie mit Distanz, Zeit und Höhenmetern</li>
+                            <li>Optional als Rad-Workout in Apple Health</li>
+                        </ul>
+                    </article>
+                    <article class="feature">
+                        <h3>Datenschutz</h3>
+                        <ul>
+                            <li>Kein Benutzerkonto, keine Werbung</li>
+                            <li>Kein Tracking-SDK</li>
+                            <li>Standort nur für Karte, Führung, Widgets und Live Activity</li>
+                        </ul>
+                    </article>
                 </div>
+                <p class="note">Neue Routen planen, Alternativen und Neuberechnung brauchen Internet. Karten und Daten: OpenStreetMap, OpenFreeMap, MapLibre, BRouter, Open-Meteo, Overpass. CycleLine ersetzt keine Verkehrsschilder und keine eigene Aufmerksamkeit im Strassenverkehr.</p>
+            </div>
+        </section>
+
+        <section class="section" aria-labelledby="download-title">
+            <div class="container">
+                <div class="cta">
+                    <img class="app-icon" src="images/apps/cycleline/icon.jpg" alt="" width="96" height="96" loading="lazy">
+                    <h2 id="download-title">Bereit für die nächste Tour?</h2>
+                    <p>CycleLine ist kostenlos im App Store – für iPhone, ohne Konto und ohne Werbung. Fragen oder Feedback? <a href="mailto:info@isupport.ch">info@isupport.ch</a></p>
+                    <div class="actions">
+                        <a href="https://apps.apple.com/ch/app/cycleline/id6802073598" class="store-badge"><img src="images/badges/app-store-de-white.svg" alt="CycleLine im App Store laden" width="120" height="40"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <strong>iSupport.ch</strong>
+                <p>Apps aus der Schweiz – persönlich entwickelt.</p>
+            </div>
+            <nav aria-label="Apps">
+                <h2>Apps</h2>
+                <ul>
+                    <li><a href="cycleline.html">CycleLine</a></li>
+                    <li><a href="quiz-organizer.html">Quiz Organizer</a></li>
+                    <li><a href="badi-app.html">Badi App</a></li>
+                    <li><a href="drawvision.html">DrawVision</a></li>
+                </ul>
+            </nav>
+            <div>
+                <h2>Kontakt</h2>
+                <ul>
+                    <li><a href="mailto:info@isupport.ch">info@isupport.ch</a></li>
+                    <li><a href="datenschutz.html">Impressum &amp; Datenschutz</a></li>
+                </ul>
             </div>
         </div>
-    </section>
-
-    <footer class="footer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>iSupport.ch</h3>
-                    <p>Apps aus der Schweiz – persönlich entwickelt.</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Apps</h4>
-                    <ul>
-                        <li><a href="quiz-organizer.html">Quiz Organizer</a></li>
-                        <li><a href="cycleline.html">CycleLine</a></li>
-                        <li><a href="badi-app.html">Badi App</a></li>
-                        <li><a href="drawvision.html">DrawVision</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Rechtliches</h4>
-                    <ul>
-                        <li><a href="#impressum">Impressum</a></li>
-                        <li><a href="#datenschutz">Datenschutz</a></li>
-                        <li><a href="#agb">AGB</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 iSupport.ch. Alle Rechte vorbehalten.</p>
-            </div>
+            <p class="footer-bottom">&copy; 2026 iSupport.ch · Apple, iPhone, iPad, Mac und Apple Vision Pro sind Marken von Apple Inc.</p>
         </div>
     </footer>
 
